@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(61, 100, 98); */
+}
+
+.inner_container {
+    transition: transform 2s ease-in-out;
+    filter: grayscale(1);
+    flex: 1;
+   
+
+transition-delay: 250ms;
+
+    width: 20%;
+    margin: 20px;
+    height: 90vh;
+    border-radius: 25px;
+    background: white  no-repeat saddlebrown;
+    transition: transform 0.5s ease-in-out;
+    color: aliceblue;
+}
+.inner_container h3{
+    background-color: rgba(0, 0, 0, 0.317);
+    border-radius: inherit;
+    text-align: center;
+    font-size: 20px;
+    padding: 6px;
+    margin: 16px 16px;
+}
+
+#inner_container1{
+    background-image: url(img/2024-03-31.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#inner_container2{
+    background-image: url(img/licensed-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#inner_container3{
+    background-image: url(img/paris.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#inner_container4{
+    background-image: url(img/tokiyo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#inner_container5{
+    background-image: url(img/wakandacity.jpg);
+    background-repeat: no-repeat;
+}
+
+.active{
+
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.436);
+margin: 10px;
+    
+flex: 4;
+transition-property:all ;
+
+filter: grayscale(0);
+/* transform: scale(1.1); */
+
+/* transform: scale(1.5); */
+}
+
+.remove{
+transition-property:all ;
+
+}
+
+ 
